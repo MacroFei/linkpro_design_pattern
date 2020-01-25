@@ -1,6 +1,6 @@
 package com.xlccc.design.principle.interfacesegregation;
 
-public class Dog implements IAnimalAction {
+public class Dog implements IEatAnimalAction,ISwimAnimalAction {
     public void eat() {
 
     }
@@ -9,7 +9,4 @@ public class Dog implements IAnimalAction {
 
     }
 
-    public void fly() {
-
-    }
 }
