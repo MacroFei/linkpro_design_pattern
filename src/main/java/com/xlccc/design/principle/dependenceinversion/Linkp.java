@@ -4,8 +4,16 @@ public class Linkp {
 
     private ICourse iCourse;
 
-    public Linkp(ICourse iCourse) {
+    public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
+    }
+
+//    public Linkp(ICourse iCourse) {
+//        this.iCourse = iCourse;
+//    }
+
+
+    public Linkp() {
     }
 
     public void studyImoocCourse(){
