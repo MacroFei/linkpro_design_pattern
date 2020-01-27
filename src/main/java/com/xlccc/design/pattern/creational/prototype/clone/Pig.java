@@ -29,7 +29,11 @@ public class Pig implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+
+        Pig pig = (Pig) super.clone();
+        //深克隆
+        pig.bitrhday = (Date) pig.bitrhday.clone();
+        return pig;
     }
 
 
