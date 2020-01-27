@@ -5,10 +5,6 @@ public class Test {
         PointsGift pointsGift = new PointsGift("Phone");
         GiftExchangeService giftExchangeService = new GiftExchangeService();
 
-        giftExchangeService.setQualifyService(new QualifyService());
-        giftExchangeService.setPointsPaymentService(new PointsPaymentService());
-        giftExchangeService.setShippingService(new ShippingService());
-
         giftExchangeService.giftExchange(pointsGift);
     }
 }
